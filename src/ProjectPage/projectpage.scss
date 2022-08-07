@@ -1,0 +1,33 @@
+@import '../assets/common.scss';
+
+
+.project-page {
+    height: 100vh;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 75px auto;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        margin: 50px 0;
+        max-width: 660px;
+
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}

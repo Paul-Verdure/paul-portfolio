@@ -1,0 +1,49 @@
+@import '../assets/common.scss';
+.contact {
+    margin: 100px 0;
+    h1{
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        margin: 50px 0;
+        max-width: 660px;
+
+    }
+    ul {
+        display: flex;
+        padding-left: 0;
+        gap: 64px;
+
+        a {
+        &:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        &:link {
+            text-decoration: none;
+            color: white;
+
+        }
+        li {
+            list-style: none;
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding: 5px;
+            transition-duration: 0.3s;
+            &:hover{
+                transform: translatey(-5px);
+                transition-duration: 0.3s;
+
+             }
+            svg {
+                min-width: 24px;
+                 
+            }
+        }
+    }
+
+}
+}

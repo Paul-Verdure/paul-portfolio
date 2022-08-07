@@ -1,0 +1,38 @@
+@import '../assets/common.scss';
+
+.about {
+
+    h1 {
+        margin: 100px 0;
+        max-width: 660px;
+        font-size: 6rem;
+
+        span {
+            color: $text-color;
+        }
+    }
+
+    .about-me {
+       
+        display: flex;
+        gap: 32px;
+        justify-content: space-between;
+
+        p {
+            margin-bottom: 16px;
+            max-width: 660px;
+            &:last-of-type {
+
+                margin-bottom: 0;
+            }
+        }
+
+        img {
+            object-fit: contain;
+            max-width: 330px;
+        }
+    }
+
+
+
+}
