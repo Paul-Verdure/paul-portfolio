@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import ProjectPageTudigo from './ProjectPage/ProjectPageTudigo';
 import Main from './Main';
+import ProjectPageGrossjungig from './ProjectPage/ProjectPageGrossjungig';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Tudigo" element={<ProjectPageTudigo />} />
+          <Route path="/Grossjungig" element={<ProjectPageGrossjungig />} />
         </Routes>
       </BrowserRouter>
     </div>
