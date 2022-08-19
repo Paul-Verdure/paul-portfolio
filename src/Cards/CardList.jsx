@@ -25,7 +25,7 @@ const list = [
   title: 'Gaming Bazaar',
   description: 'An e-commerce application build with Next.js and GraphQL',
   img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1659875937/portfolio/grossjungig_elo2gs.png',
-  link: '/Grossjungig'
+  link: '/GameBazaar'
 },
 
 {
@@ -33,7 +33,7 @@ const list = [
   title: 'Weather Camper App',
   description: 'A mobile app in Vue.js to help you decide where to park your camper',
   img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1659875937/portfolio/grossjungig_elo2gs.png',
-  link: '/Grossjungig'
+  link: '/WeatherCamper'
 },
 ]
 

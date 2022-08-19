@@ -17,6 +17,9 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/Tudigo" element={<ProjectPageTudigo />} />
           <Route path="/Grossjungig" element={<ProjectPageGrossjungig />} />
+          <Route path="/GameBazaar" element={<ProjectPageGrossjungig />} />
+          <Route path="/WeatherCamper" element={<ProjectPageGrossjungig />} />
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -63,6 +63,8 @@ body {
     rgba(52, 29, 101, 1) 1%,
     rgba(96, 74, 234, 1) 100%
   );
+  background-repeat: no-repeat;
+
   }
 /*
   6. Improve media defaults

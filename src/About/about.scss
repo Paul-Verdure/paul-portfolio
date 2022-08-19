@@ -33,6 +33,17 @@
         }
     }
 
+}
 
+@media (max-width: $breakpoint-mobile) {
+
+  .about {
+    h1 {
+      font-size: 5rem;
+    }
+    .about-me {
+        flex-direction: column-reverse;
+    }
+  }
 
 }

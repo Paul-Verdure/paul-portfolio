@@ -2,6 +2,9 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import react from '../assets/react-logo.svg'
+import mui from '../assets/mui-logo.png'
+
 
 function ProjectPageGrossjungig() {
 	return (
@@ -13,54 +16,72 @@ function ProjectPageGrossjungig() {
 					<p>
 						Following the Ukrainian crisis, Großjungig startup decided to
 						transform its model from a multi-generational co-living solution to
-						help refugees to find temporary accommodation in European countries.
-						
+						help refugees find temporary accommodation in European countries.
 					</p>{' '}
 					<p>
-          I volunteered and helped Großjungig team transform their website to
-						match its new purpose. It includes reshaping the header and landing page to
-						display the different sections house providers and refugees can
-						access to. But also managing the translation logic in order to go from 2
+						I volunteered and helped Großjungig team transform their website to
+						match its new purpose. It includes reshaping the header and landing
+						page to display the different sections house providers and refugees
+						can access. But also managing the translation logic to go from 2
 						languages available on the website to 5 languages.
 					</p>
 				</section>
 				<section>
 					<h2>Tech stack</h2>
 					<p>
-            Grossjungig app is using a <span>React</span> front end with <span>Material UI</span> as a component library and CSS utilities.
-						The back end part is built on Node.js and Express with a MongoDB database.
+						Grossjungig app is using a <span>React</span> front end with{' '}
+						<span>Material UI</span> as a component library and CSS utilities.
+						The back end part is built on Node.js and Express with a MongoDB
+						database.
 					</p>
-          <p>We used <span>Github</span> as a version control system and <span>Figma</span> to share the design within the team.</p>
+					<p>
+						We used <span>Github</span> as a version control system and{' '}
+						<span>Figma</span> to share the design within the team.
+					</p>
 				</section>
-				<img src="" alt="" />
+				<section className='logo-section'>
+          <img src={react} alt="react logo" />
+          <img src={mui} alt="mui logo" />
+        </section>
 				<img src="" alt="" />
 				<section>
 					<h2>Problems and solutions</h2>
 					<p>
-						One of the main challenges we had was to decide how to deal with the
-						state management within our investor qualification path
+						<span>Communication</span> was key during this project, as
+						Anastasia, founder and CEO of Grossjungig wanted to react quickly to
+						be able to welcome the refugees.
 					</p>
 					<p>
-						We considered Redux and Recoil, but decided to go with an all-react
-						solution with Context and Reducers. It appears to be simpler to us,
-						well suited to our application size, and doesn't have a big
-						boilerplate included.
+						The Creative Team quickly created the new Figma files for the new
+						design and the translation team produced{' '}
+						<span>3 new languages </span>
+						 for every text on the website.
+					</p>
+					<p>
+						As for me, I had to understand fast the React app
+						<span> architecture</span> and read Material UI{' '}
+						<span>documentation</span> to be able to change the design on the
+						landing page, navigation, and footer.
 					</p>
 				</section>
 				<section>
 					<h2>Lessons learned</h2>
 					<p>
-						Among the many things I learned at Tudigo, I am particularly happy
-						to know how to better use Git commands and workflow within a team.
+						Working in an <span>English speaking environment</span> was
+						something I particularly enjoyed during this time, as the team was
+						international.
 					</p>
 					<p>
-						I am glad to have been charged with testing our various project, and
-						component library, as I was able to try several testing libraries
-						and choose the right one for our app.
+						Having to learn how to use Material UI and the translation system
+						using JSON files was also a great exercise for my{' '}
+						<span>learning skills</span>.
 					</p>
 					<p>
-						Finally, collaborating with the creative team and discussions around
-						UI/UX were a great source of insights around these topics.
+						Grossjungig's CTO had documented the company's GitHub pretty well, I
+						was able to use the<span> branch and merge process</span> the right
+						way. The
+						<span> linter</span> also provided great guidelines to match the code
+						guidelines.
 					</p>
 				</section>
 				<img src="" alt="" />

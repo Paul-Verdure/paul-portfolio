@@ -15,7 +15,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
     row-gap: 32px;
-    column-gap: 16px;
+    column-gap: 16pxya;
     
 		section:first-of-type {
 			grid-column: span 2;
@@ -29,6 +29,17 @@
     h2 {
 			font-size: 3.4rem;
 		}
+
+    .logo-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        
+        width: 150px;
+      }
+    }
 
 		p {
 			font-size: 1.8rem;

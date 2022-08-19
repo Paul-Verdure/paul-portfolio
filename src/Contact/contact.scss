@@ -47,3 +47,11 @@
 
 }
 }
+
+@media (max-width: $breakpoint-mobile) {
+  .contact {
+    ul {
+      gap: 32px;
+    }
+  }
+}

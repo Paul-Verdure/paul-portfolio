@@ -34,7 +34,7 @@ function ProjectPageTudigo() {
 					</p>
 					<p>
 						Implementing <span>Typescript</span> was challenging, but made us
-						really confident in the strength of our code. Unit Testing is made
+						really confident in our code's strength. Unit Testing is made
 						with the help of <span>Jest</span> and{' '}
 						<span>React Testing Library</span>.
 					</p>
@@ -47,20 +47,15 @@ function ProjectPageTudigo() {
 				<img src="" alt="" />
 				<section>
 					<h2>Problems and solutions</h2>
-					<p>
-						Communication was key during this project, as Anastasia, founder and
-						CEO of Grossjungig wanted to react quickly to be able to welcome the
-						refugees.
+          <p>
+						One of the main challenges we had was to decide how to deal with the
+						state management within our investor qualification path
 					</p>
 					<p>
-						The creative Team quickly created the new Figma files for the new
-						design, and the translation team produced 3 new language
-						translations for every text in the website.
-					</p>
-					<p>
-						As for me, I had to understand really fast the React app
-						architecture and read Material UI documentation to be able to change
-						the design on the landing page, navigation, and footer.
+						We considered Redux and Recoil, but decided to go with an all-react
+						solution with Context and Reducers. It appears to be simpler to us,
+						well suited to our application size, and doesn't have a big
+						boilerplate included.
 					</p>
 				</section>
 				<section>
@@ -76,7 +71,7 @@ function ProjectPageTudigo() {
 						libraries and choose the right one for our app.
 					</p>
 					<p>
-						Finally, collaborating with the creative team and discussions around{' '}
+						Finally, collaborating with the Creative Team and discussions around{' '}
 						<span>UI/UX</span> were a great source of insights around these
 						topics.
 					</p>
