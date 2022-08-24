@@ -15,7 +15,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
     row-gap: 32px;
-    column-gap: 16pxya;
+    column-gap: 16px;
     
 		section:first-of-type {
 			grid-column: span 2;
@@ -34,10 +34,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      gap: 32px;
+      flex-wrap: wrap;;
       
       img {
         
-        width: 150px;
+        height: 100px;
       }
     }
 

@@ -2,6 +2,9 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import vue from '../assets/vue-logo.svg'
+import css from '../assets/css-logo.svg'
+
 
 function ProjectPageWeatherCamper() {
 	return (
@@ -18,7 +21,7 @@ function ProjectPageWeatherCamper() {
 					<p>
 						But I'm one of the curious types, and I want to know how other
 						Javascript frameworks can do the same things in another way. So I
-						decided to <span>give Vue.js a try</span> by building a very simple
+						decided to give <span>Vue.jsy</span> a try via building a very simple
 						mobile-oriented app that consumes a weather API. And tell the user
 						if she/he can use her/his BBQ tonight, or if he/she will stay inside the
 						camper.
@@ -28,10 +31,13 @@ function ProjectPageWeatherCamper() {
 					<h2>Tech stack</h2>
 					<p>
 						The main focus of this app is the discovery of <span>Vue.js</span>, with the help
-						of vanilla CSS and fetching the <span>Open Weather Map API</span>.
+						of vanilla <span>CSS</span> and fetching the <span>Open Weather Map API</span>.
 					</p>
 				</section>
-				<img src="" alt="" />
+        <section className='logo-section'>
+          <img src={vue} alt="vue logo" />
+          <img src={css} alt="css logo" />
+        </section>
 				<section>
 					<h2>Lessons learned</h2>
 					<p>

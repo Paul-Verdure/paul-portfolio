@@ -2,8 +2,10 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import react from '../assets/react-logo.svg'
+import react from '../assets/react-logo.png'
 import mui from '../assets/mui-logo.png'
+import github from '../assets/github-logo.png'
+import figma from '../assets/Figma-Icon.svg'
 
 
 function ProjectPageGrossjungig() {
@@ -42,6 +44,9 @@ function ProjectPageGrossjungig() {
 				<section className='logo-section'>
           <img src={react} alt="react logo" />
           <img src={mui} alt="mui logo" />
+          <img src={github} alt="github logo" />
+          <img src={figma} alt="figma logo" />
+
         </section>
 				<img src="" alt="" />
 				<section>

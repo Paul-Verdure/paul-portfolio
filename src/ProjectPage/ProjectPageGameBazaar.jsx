@@ -2,6 +2,10 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import next from '../assets/next-logo.svg'
+import graphQL from '../assets/GraphQL-logo.svg'
+import styledComponents from '../assets/styled-components-logo.svg'
+
 
 function ProjectPageGameBazaar() {
 	return (
@@ -42,7 +46,12 @@ function ProjectPageGameBazaar() {
 						to a reusable React Component, using tagged template litterals.
 					</p>
 				</section>
-				<img src="" alt="" />
+        <section className='logo-section'>
+          <img src={next} alt="next logo" />
+          <img src={graphQL} alt="graphql logo" />
+          <img src={styledComponents} alt="styled-compoenents logo" />
+
+        </section>
 				<img src="" alt="" />
 				<section>
 					<h2>Problems and solutions</h2>
