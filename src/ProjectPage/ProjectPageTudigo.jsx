@@ -2,15 +2,13 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import react from '../assets/react-logo.png'
-import typescript from '../assets/ts-logo.svg'
-import sass from '../assets/sass-logo.png'
-import jest from '../assets/jest-logo.svg'
-import rtl from '../assets/rtl-logo.png'
-import gitlab from '../assets/gitlab-logo.svg'
-import figma from '../assets/Figma-Icon.svg'
-
-
+import react from '../assets/react-logo.png';
+import typescript from '../assets/ts-logo.svg';
+import sass from '../assets/sass-logo.png';
+import jest from '../assets/jest-logo.svg';
+import rtl from '../assets/rtl-logo.png';
+import gitlab from '../assets/gitlab-logo.svg';
+import figma from '../assets/Figma-Icon.svg';
 
 function ProjectPageTudigo() {
 	return (
@@ -43,36 +41,42 @@ function ProjectPageTudigo() {
 					</p>
 					<p>
 						Implementing <span>Typescript</span> was challenging, but made us
-						really confident in our code's strength. Unit Testing is made
-						with the help of <span>Jest</span> and{' '}
-						<span>React Testing Library</span>.
+						really confident in our code's strength. Unit Testing is made with
+						the help of <span>Jest</span> and <span>React Testing Library</span>
+						.
 					</p>
 					<p>
 						We also used <span>GitLab</span> as our version control system, and{' '}
 						<span>Figma</span> to share the design with the UX/UI team.
 					</p>
 				</section>
-        <section className='logo-section'>
-          <img src={react} alt="react logo" />
-          <img src={typescript} alt="typescript logo" />
-          <img src={sass} alt="sass logo" />
-          <img src={jest} alt="jest logo" />
-          <img src={rtl} alt="rtl logo" />
-          <img src={gitlab} alt="gitlab logo" />
-          <img src={figma} alt="figma logo" />
-        </section>
-				<img src="" alt="" />
+				<section className="logo-section">
+					<img src={react} alt="react logo" />
+					<img src={typescript} alt="typescript logo" />
+					<img src={sass} alt="sass logo" />
+					<img src={jest} alt="jest logo" />
+					<img src={rtl} alt="rtl logo" />
+					<img src={gitlab} alt="gitlab logo" />
+					<img src={figma} alt="figma logo" />
+				</section>
+				<section>
+					<img
+						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661433410/portfolio/tudigo-1_essegr.gif"
+						alt="Work at Tudigo"
+					/>
+				</section>
 				<section>
 					<h2>Problems and solutions</h2>
-          <p>
+					<p>
 						One of the main challenges we had was to decide how to deal with the
-						<span>state management</span> within our investor qualification path
+						<span> state management</span> within our investor qualification
+						path
 					</p>
 					<p>
 						We considered Redux and Recoil, but decided to go with an all-react
-						solution with <span>Context</span> and <span>Reducers</span>. It appears to be simpler to us,
-						well suited to our application size, and doesn't have a big
-						boilerplate included.
+						solution with <span>Context</span> and <span>Reducers</span>. It
+						appears to be simpler to us, well suited to our application size,
+						and doesn't have a big boilerplate included.
 					</p>
 				</section>
 				<section>
@@ -93,7 +97,12 @@ function ProjectPageTudigo() {
 						topics.
 					</p>
 				</section>
-				<img src="" alt="" />
+				<section>
+					<img
+						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661433408/portfolio/tudigo-2_q1ftbh.gif"
+						alt="Work at Tudigo 2"
+					/>
+				</section>
 			</main>
 			<Footer />
 		</div>

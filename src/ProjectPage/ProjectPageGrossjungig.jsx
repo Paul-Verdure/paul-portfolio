@@ -2,11 +2,10 @@ import React from 'react';
 import './projectpage.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import react from '../assets/react-logo.png'
-import mui from '../assets/mui-logo.png'
-import github from '../assets/github-logo.png'
-import figma from '../assets/Figma-Icon.svg'
-
+import react from '../assets/react-logo.png';
+import mui from '../assets/mui-logo.png';
+import github from '../assets/github-logo.png';
+import figma from '../assets/Figma-Icon.svg';
 
 function ProjectPageGrossjungig() {
 	return (
@@ -41,14 +40,18 @@ function ProjectPageGrossjungig() {
 						<span>Figma</span> to share the design within the team.
 					</p>
 				</section>
-				<section className='logo-section'>
-          <img src={react} alt="react logo" />
-          <img src={mui} alt="mui logo" />
-          <img src={github} alt="github logo" />
-          <img src={figma} alt="figma logo" />
-
-        </section>
-				<img src="" alt="" />
+				<section className="logo-section">
+					<img src={react} alt="react logo" />
+					<img src={mui} alt="mui logo" />
+					<img src={github} alt="github logo" />
+					<img src={figma} alt="figma logo" />
+				</section>
+				<section>
+					<img
+						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661436098/portfolio/Gro%C3%9Fjungig_-WG-Zimmer-_-Mitbewohner-Suche_-Mehrgenerationen-WG_vubilw.gif"
+						alt="Work at Grossjungig 1"
+					/>
+				</section>
 				<section>
 					<h2>Problems and solutions</h2>
 					<p>
@@ -60,7 +63,7 @@ function ProjectPageGrossjungig() {
 						The Creative Team quickly created the new Figma files for the new
 						design and the translation team produced{' '}
 						<span>3 new languages </span>
-						 for every text on the website.
+						for every text on the website.
 					</p>
 					<p>
 						As for me, I had to understand fast the React app
@@ -85,11 +88,16 @@ function ProjectPageGrossjungig() {
 						Grossjungig's CTO had documented the company's GitHub pretty well, I
 						was able to use the<span> branch and merge process</span> the right
 						way. The
-						<span> linter</span> also provided great guidelines to match the code
-						guidelines.
+						<span> linter</span> also provided great guidelines to match the
+						code guidelines.
 					</p>
 				</section>
-				<img src="" alt="" />
+				<section>
+					<img
+						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661436099/portfolio/Gro%C3%9Fjungig_-WG-Zimmer-_-Mitbewohner-Suche_-Mehrgenerationen-WG-_1__pbphmd.gif"
+						alt="Work at Grossjungig 2"
+					/>
+				</section>
 			</main>
 			<Footer />
 		</div>

@@ -21,6 +21,10 @@
         p {
             margin-bottom: 16px;
             max-width: 660px;
+            span {
+              font-weight: 700;
+              color: $text-color;
+            }
             &:last-of-type {
 
                 margin-bottom: 0;

@@ -8,49 +8,55 @@
 	animation: fadeInAnimation ease 2s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-  
 
 	.grid-container {
-    margin: 100px 0;
+		margin: 100px 0;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-    row-gap: 32px;
-    column-gap: 16px;
-    
+		row-gap: 32px;
+		column-gap: 32px;
+
+		section {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
 		section:first-of-type {
 			grid-column: span 2;
 		}
 
 		h1 {
 			font-size: 6rem;
-      margin-bottom: 50px;
+			margin-bottom: 50px;
 		}
 
-    h2 {
+		h2 {
 			font-size: 3.4rem;
+			margin-bottom: 16px;
 		}
 
-    .logo-section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 32px;
-      flex-wrap: wrap;;
-      
-      img {
-        
-        height: 100px;
-      }
-    }
+		.logo-section {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			gap: 32px;
+			flex-wrap: wrap;
+
+			img {
+				height: 100px;
+			}
+		}
 
 		p {
 			font-size: 1.8rem;
-      max-width: 660px;
-      margin-bottom: 16px;
-      span {
-        font-weight: 700;
-        color: $text-color;
-      }
+			max-width: 660px;
+			margin-bottom: 16px;
+			span {
+				font-weight: 700;
+				color: $text-color;
+			}
 		}
 	}
 
@@ -61,6 +67,19 @@
 
 		100% {
 			opacity: 1;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-mobile) {
+	.project-page {
+		.grid-container {
+			display: flex;
+			flex-direction: column;
+      gap: 64px;
+			h1 {
+				font-size: 5rem;
+			}
 		}
 	}
 }

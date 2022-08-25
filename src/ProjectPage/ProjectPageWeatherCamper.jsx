@@ -52,7 +52,9 @@ function ProjectPageWeatherCamper() {
 						to read and understand.
 					</p>
 				</section>
-				<img src="" alt="" />
+        <section>
+				<img src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661438053/portfolio/Camper-Weather_ccqx4k.gif" alt="Weather App Vue.js" />
+        </section>
 			</main>
 			<Footer />
 		</div>

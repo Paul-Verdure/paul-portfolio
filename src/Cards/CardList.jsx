@@ -17,7 +17,7 @@ const list = [
   id: 2,
   title: 'Volunteer at Grossjungig',
   description: 'What I learned while working in a multicultural team to help Grossjunigig, a German startup.',
-  img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1659875937/portfolio/grossjungig_elo2gs.png',
+  img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661436458/portfolio/Capture_d_%C3%A9cran_du_2022-08-25_16-07-21_rm5isk.png',
   link: '/Grossjungig'
 },
 {
@@ -32,7 +32,7 @@ const list = [
   id: 4,
   title: 'Weather Camper App',
   description: 'A mobile app in Vue.js to help you decide where to park your camper',
-  img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1659875937/portfolio/grossjungig_elo2gs.png',
+  img: 'https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661437809/portfolio/Capture_d_%C3%A9cran_du_2022-08-25_16-28-42_o02nrq.png',
   link: '/WeatherCamper'
 },
 ]
