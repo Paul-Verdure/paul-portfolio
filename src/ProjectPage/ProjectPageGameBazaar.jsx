@@ -53,7 +53,7 @@ function ProjectPageGameBazaar() {
 				</section>
 				<section>
 					<img
-						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661434883/portfolio/AwesomeScreenshot-7_9_2022_6_07_15PM__1__AdobeExpress_1_dboqri.gif"
+						src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661457882/portfolio/Bazaar-Page-1-of-1-_1__xg02j8.gif"
 						alt="Game Bazaar 1"
 					/>
 				</section>
@@ -90,7 +90,7 @@ function ProjectPageGameBazaar() {
 				</section>
         <section>
           <img
-					src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661435038/portfolio/AwesomeScreenshot-7_9_2022_6_07_15PM__1__AdobeExpress_2_ikcnmx.gif"
+					src="https://res.cloudinary.com/dh4gqj1ym/image/upload/v1661457882/portfolio/Bazaar-Page-1-of-1-_1__xg02j8.gif"
 					alt="Game Bazaar 2"
 				/>
         </section>
