@@ -13,7 +13,7 @@ function About() {
                         What I enjoyed most at the brewery was <span>building projects</span>, starting with an idea and a target, and work with <span>talented people</span> like marketing, business, and creative teams to make it shine and be successful.</p>
                     <p>
                         My passion and engagement in web development also find its origin in childhood, trying to figure out how to solve the <span>puzzle</span> of the Water Temple dungeon in The Legend Of Zelda: Ocarina of Time.
-                        It is the same enjoyment I find in software development, dealing with <span>sata, logic and state management</span>.
+                        It is the same enjoyment I find in software development, dealing with <span>data, logic and state management</span>.
                     </p>
                     <p>
                         Building nice and complete <span>web applications</span> is so much sweeter when it is shared within a team of talented individuals.
