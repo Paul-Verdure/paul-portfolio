@@ -5,8 +5,6 @@ import Header from './Header/Header';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 
-
-
 function Main() {
   return (
     <div className="App">
