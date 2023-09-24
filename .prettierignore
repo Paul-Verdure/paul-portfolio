@@ -1,0 +1,7 @@
+build
+docs
+*.md
+*.txt
+*.html
+*.css
+*.scss
